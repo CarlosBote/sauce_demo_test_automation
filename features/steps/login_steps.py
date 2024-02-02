@@ -15,7 +15,7 @@ def step_i_enter_a_valid_username_and_password(context, username, password):
 
 @then('I Should be redirect to my account page')
 def i_should_be_redirect_to_my_account_page(context):
-    expected_url = 'https://www.1saucedemo.com/inventory.html'
+    expected_url = 'https://www.saucedemo.com/inventory.html'
     assert context.browser.current_url == expected_url,\
         f"The expected URL is {expected_url}, buy got {context.browser.current_url()}"
 
