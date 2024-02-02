@@ -1,4 +1,4 @@
 # Default ignored files
-screenshots/
+screenshots/*
 /shelf/
 /workspace.xml
