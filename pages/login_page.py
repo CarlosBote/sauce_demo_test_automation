@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 class LoginPage:
     username_input = (By.ID, 'user-name')
     password_input = (By.ID, 'password')
-    submit_btn= (By.ID, 'login-button')
+    submit_btn = (By.ID, 'login-button')
 
     def __init__(self, driver):
         self.driver = driver
