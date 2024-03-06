@@ -3,8 +3,10 @@ Feature: Login feature
   I want to login to my account
   So i can access to the shop
 
+  Background: Enter web page
+    Given I enter to the url 'https://www.saucedemo.com'
+
   Scenario Outline: Successful login
-    Given I am in the login page
     When I enter a valid username "<username>" and password "<password>"
     Then I Should be redirect to my account page
 
